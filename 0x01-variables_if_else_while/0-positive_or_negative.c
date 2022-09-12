@@ -5,9 +5,9 @@
 #include <time.h>
 
 /**
- *  * main - the program assigns and prints random values
- *   * body - prints negative and positive integers
- *    * Return: 0    
+ * main - the program assigns and prints random values
+ * body - prints negative and positive integers
+ * Return: 0    
  */
 int main(void)
 {int n;
