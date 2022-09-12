@@ -6,17 +6,11 @@
 
 /**
  *  * main - the program assigns and prints random values
- *
  *   * body - prints negative and positive integers
- *
- *    * Return: 0
- *    
+ *    * Return: 0    
  */
-
 int main(void)
-
 {int n;
-
 	srand(time(0));
 
 	n = rand() - RAND_MAX / 2;
