@@ -1,23 +1,22 @@
 #include <stdio.h>
-
 /**
- * main - Prints the sizeof many var types
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char a;
-	int b;
-	long int c;
-	long long int d;
-	float e;
+	char typeChar;
+	int typeInt;
+	long typeLongInt;
+	long long typeLongLongInt;
+	float typeFloat;
+	/* With sizeof() we get the number of bytes */
+	printf("Size of a char: %lu byte(s)\n", sizeof(typeChar));
+	printf("Size of an int: %lu byte(s)\n", sizeof(typeInt));
+	printf("Size of a long int: %lu byte(s)\n", sizeof(typeLongInt));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(typeLongLongInt));
+	printf("Size of a float: %lu byte(s)\n", sizeof(typeFloat));
 
-
-	print f("Size of a char: %d byte(s)\n", sizeof (a));
-	print f("Size of an int: %d byte(s)\n", sizeof (b));
-	print f("Size of a long int: byte(s)\n", sizeof (c));
-	print f("Size of a long long int: byte(s)\n", sizeof (d));
-	print f("Size of a float: %d byte(s)\n, sizeof (e));
 	return (0);
 }
