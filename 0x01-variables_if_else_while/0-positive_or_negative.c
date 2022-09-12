@@ -10,7 +10,6 @@
  *   * body - prints negative and positive integers
  *
  *    * Return: 0
- *
  *    
  */
 
