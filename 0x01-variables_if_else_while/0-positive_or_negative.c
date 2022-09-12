@@ -4,7 +4,7 @@
 /**
  * main - the program assigns and prints random values
  * body - prints negative and positive integers
- * Return: 0    
+ * Return:0    
  */
 int main(void)
 {int n;
